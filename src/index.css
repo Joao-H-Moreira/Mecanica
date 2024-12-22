@@ -36,8 +36,8 @@ margin-right: 2%;
 }
 
 .btn-contato button{
-  width: 120px;
-  height: 40px;
+  width: 150px;
+  height: 50px;
   border: 0;
   background-color: red;
   color: white;
@@ -51,8 +51,3 @@ margin-right: 2%;
   color: rgb(253, 128, 128);
 }
 
-nav{
-  height: 160px;
-  width: 100%;
-  background-color: #717171;
-}
