@@ -1,0 +1,19 @@
+.nav{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-left: 3%;
+    margin-left: 3%;
+    list-style-type: none;
+    background-color: #0B0033;
+    border-radius: 15px;
+    width: 94%;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 30px;
+}
