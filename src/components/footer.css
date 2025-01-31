@@ -1,0 +1,45 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 5rem;
+    align-items: center;
+    margin: 1rem auto;
+    background-color: #0B0033;
+    padding: 3rem;
+    border-radius: 25px;
+    box-shadow: 0px 6px 8px #0000004f;
+    color: #fff;
+}
+
+.email{
+    font-family: 'Victor Mono', monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25rem;
+    font-size: 1.3rem;
+}
+
+.menos{
+    font-size: 0.8rem;
+}
+svg{
+    font-size: 2rem;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.social-media svg{
+    font-size: 2.3rem;
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.social-media svg:hover{
+    color: #031bb8;
+}

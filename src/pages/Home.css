@@ -1,88 +1,19 @@
 .Home{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 4%;
-    min-height: 400px;
-}
-
-.Sobre-mim{
-    max-width: 50%;
-}
-
-.Eu{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 174, 255);
-    margin-left: 5%;
-}
-.Eu-1{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 5%;
-}
-
-.Texto{
-    
-    font-family: 'Victor Mono', monospace;
-    margin: 5%;
-    
-}
-
-.font-5 {
-    font-family: 'Victor Mono', monospace;
-}
-
-.margin-1{
-    margin-left: 5%;
-}
-
-.title {
-    color: #faff00;
-    padding: 0 0 0.5rem;
 
 }
 
-.Foto img{
-    height: 266px;
-    width: 197px;
-    margin-right: 5%;
-    border-radius: 15%;
-    background-color: black;
-    margin-right:15px ;
-    margin-bottom:15px ;
+.Servicos{
+
 }
 
-.btn-d{
-    padding: 5px;
-    height:auto ;
-    width: 110px;
-    background-color: crimson;
-    margin-left: 5%;
-    border-radius: 7%;
+.Servico-t{
+
 }
 
-.btn-d a {
-    text-decoration: none;
-}
+.Contato{
 
-.Contatos{
-    display: flex;
-    flex-direction: column;
-   justify-self: center;
 }
-
-.Conteudo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 4%;
-}
-
+  
 .ctn{
-    width: auto;
-    height: auto;
-    padding: 10px;
-    border-radius: 10%;
-    margin-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 100px ;
+
 }
