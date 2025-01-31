@@ -10,16 +10,12 @@ const footer = () => {
     <footer>
 
         <p className='email'>
-          
+          <AiOutlineMail /> seu email aqui
         </p>
       
-          <p className='email menos'>     
-            
-          </p>
 
       <div className='social-media'>
-        {/* <Link to="https://github.com/Joao-H-Moreira" target='_Blank'><FaGithub/></Link>
-        <Link to="https://www.linkedin.com/in/jo%C3%A3o-henrique-de-assis-moreira-22a6ab1ba/" target='_Blank'><FaLinkedin/></Link> */}
+        <Link to="wa.me" target='_Blank'><FaWhatsapp/></Link>
       </div>
     </footer>
   )
