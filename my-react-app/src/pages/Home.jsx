@@ -1,12 +1,11 @@
 import React from 'react'
-import Perfilfoto from '../assets/perfil.jpg'
 
 
 import "./Home.css"
-import linke from "../assets/based/linkedin.png"
-import github from "../assets/based/github.png"
-import zap from "../assets/based/whatsapp.png"
-import insta from "../assets/based/instagram.png"
+// import linke from "../assets/based/linkedin.png"
+// import github from "../assets/based/github.png"
+import zap from "../assets/icons/whatsapp.png"
+// import insta from "../assets/based/instagram.png"
 
 const Home = () => {
   return (
