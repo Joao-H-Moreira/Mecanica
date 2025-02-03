@@ -13,16 +13,14 @@ return (
         <p>HCar</p>
 
       <div className='Foto'>
-        <img src={Perfilfoto} alt="" />
+        <img src={Logo} alt="" />
      </div>
 
      <div className='ctn'>
-        <a href="https://wa.me/5511949094912" target="_blank"> <img src={zap} alt="" /> </a>
+        <Link to="https://wa.me/5511949094912" target="_blank"> <img src={zap} alt="" /> </Link>
       </div>
 
       </menu>
-
-      <p className="text">Bem-vindo! </p>
     </div>
     </div> 
   )
