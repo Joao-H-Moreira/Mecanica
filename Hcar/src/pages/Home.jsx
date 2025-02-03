@@ -1,6 +1,8 @@
 import React from 'react'
 
-
+import tb1 from "../assets/tb1.png";
+import tb2 from "../assets/tb1.png";
+import tb3 from "../assets/tb1.png";
 
 import "./Home.css"
 
@@ -12,18 +14,23 @@ const Home = () => {
     <div className='Slide'>
     </div>
 
-    <div className='Home'>     
-
-        <div className='box'>
-        </div>
-
-        <div className='box'>
-        </div>
-
-        <div className='box'>
-        </div>
-
-    </div>
+    <section className='Servicos'>
+        <h2>Serviços</h2>
+        <article className='cards-servicos'>
+          <article className='card-servicos'>
+            <img src={tb1} alt="#" />
+            <p>Exemplo de trabalho 1 </p>
+          </article>
+          <article className='card-servicos'>
+            <img src={tb2} alt="#" />
+            <p>Exemplo de trabalho 2 </p>
+          </article>
+          <article className='card-servicos'>
+            <img src={tb3} alt="#" />
+            <p>Exemplo de trabalho 3</p>
+          </article>
+        </article>
+      </section>
 
     </div>
   )

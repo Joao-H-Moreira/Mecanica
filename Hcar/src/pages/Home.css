@@ -1,4 +1,4 @@
-.Home{
+.Slide{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -6,25 +6,39 @@
     min-height: 400px;
 }
 
-.Sobre-mim{
-    max-width: 50%;
+.Servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
 }
 
-.Eu{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 174, 255);
-    margin-left: 5%;
-}
-.Eu-1{
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 5%;
+.cards-servicos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    width: 100%;
 }
 
-.Texto{
-    
-    font-family: system-ui;
-    margin: 5%;
-    font-weight:300;
-    letter-spacing: 0.095rem;
-    
+.cards-servicos img{
+    width: 5rem;
+}
+
+.card-servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 366px;
+    padding: 1rem;
+    border-radius: 25px;
+    background: #9F0D0D ;
+
+    color: white;
+    border: 5px solid transparent;
 }
