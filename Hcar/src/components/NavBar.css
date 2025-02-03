@@ -1,0 +1,21 @@
+.navBar,
+.menuBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#navBar{
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 90%;
+    margin: 1rem auto;
+    height: fit-content;
+}
+
+.menuBar{
+    width: 50%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
