@@ -1,10 +1,9 @@
 .navBar,
 .menuBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+    margin-left: 1% ;
+    margin-right: 1%;
+    margin-bottom: 3%;
+
 }
 #navBar{
     align-items: center;
@@ -16,7 +15,13 @@
 }
 
 .menuBar{
-    width: 50%;
-    gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
     flex-wrap: wrap;
+}
+
+.Logo img{
+    width: 150px ;
+    height: 150px;
 }

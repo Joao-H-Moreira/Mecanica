@@ -12,13 +12,11 @@ return (
       <menu className="menuBar">
         <h1>HCar</h1>
 
-      <div className='Foto'>
+        <div className='Logo'>
         <img src={Logo} alt="" />
-     </div>
+        </div>
 
-     <div className='ctn'>
         <Link to="https://wa.me/5511949094912" target="_blank"> <img src={zap} alt="" /> </Link>
-      </div>
 
       </menu>
     </div>
