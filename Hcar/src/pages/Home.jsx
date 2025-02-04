@@ -15,7 +15,10 @@ const Home = () => {
     </div>
 
     <section className='Servicos'>
-        <h2>Serviços</h2>
+        <div className='Titulo'>
+        <h1>Serviços</h1>
+        </div>
+        
         <article className='cards-servicos'>
           <article className='card-servicos'>
             <img src={tb1} alt="#" />

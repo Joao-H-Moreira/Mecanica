@@ -10,7 +10,7 @@ return (
     <div>
     <div className="navBar">
       <menu className="menuBar">
-        <p>HCar</p>
+        <h1>HCar</h1>
 
       <div className='Foto'>
         <img src={Logo} alt="" />
