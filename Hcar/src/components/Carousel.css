@@ -1,0 +1,48 @@
+/* Carousel.css */
+.carousel-container {
+    width: 800px; /* Largura fixa */
+    height: 600px; /* Altura fixa */
+    margin: 0 auto; /* Centraliza o carrossel na página */
+    overflow: hidden; /* Garante que as imagens não ultrapassem o container */
+    position: relative;
+  }
+  
+  .slick-slide img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do slide */
+    height: 400px; /* Altura fixa para as imagens */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+  }
+  
+  /* Estilo para os pontos de navegação (dots) */
+  .slick-dots {
+    bottom: 10px; /* Posiciona os dots na parte inferior */
+  }
+  
+  .slick-dots li button:before {
+    color: white; /* Cor dos dots */
+    font-size: 10px; /* Tamanho dos dots */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000; /* Cor do dot ativo */
+  }
+  
+  /* Estilo para as setas de navegação */
+  .slick-prev,
+  .slick-next {
+    z-index: 1; /* Garante que as setas fiquem acima das imagens */
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #ff0000; /* Cor das setas */
+    font-size: 24px; /* Tamanho das setas */
+  }
+  
+  .slick-prev {
+    left: 10px; /* Posiciona a seta "anterior" à esquerda */
+  }
+  
+  .slick-next {
+    right: 10px; /* Posiciona a seta "próxima" à direita */
+  }

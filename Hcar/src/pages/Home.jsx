@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from '../components/Carousel';
 
 import tb1 from "../assets/tb1.png";
 import tb2 from "../assets/tb1.png";
@@ -12,6 +13,7 @@ const Home = () => {
     <div>
 
     <div className='Slide'>
+    <Carousel />
     </div>
 
     <section className='Servicos'>
@@ -20,18 +22,37 @@ const Home = () => {
         </div>
         
         <article className='cards-servicos'>
+
           <article className='card-servicos'>
             <img src={tb1} alt="#" />
             <p>Exemplo de trabalho 1 </p>
           </article>
+
           <article className='card-servicos'>
             <img src={tb2} alt="#" />
             <p>Exemplo de trabalho 2 </p>
           </article>
+
           <article className='card-servicos'>
             <img src={tb3} alt="#" />
-            <p>Exemplo de trabalho 3</p>
+            <p>Exemplo de trabalho 3</p> 
           </article>
+
+          <article className='card-servicos'>
+            <img src={tb3} alt="#" />
+            <p>Exemplo de trabalho 4</p>
+          </article>
+
+          <article className='card-servicos'>
+            <img src={tb3} alt="#" />
+            <p>Exemplo de trabalho 4</p>
+          </article>
+
+          <article className='card-servicos'>
+            <img src={tb3} alt="#" />
+            <p>Exemplo de trabalho 6</p>
+          </article>
+
         </article>
       </section>
 
